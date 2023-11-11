@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns:exsl="http://exslt.org/common" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<ReceiverID>RO21317541</ReceiverID>
+<DocumentDate>2023-10-31</DocumentDate>
+<DocumentNumber>NL00819733</DocumentNumber>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol4a:ver2.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver2.0</cbc:ProfileID>
+<cbc:ID>NLPI00324889/NL</cbc:ID>
+<cbc:IssueDate>2023-10-31</cbc:IssueDate>
+<cbc:InvoiceTypeCode listID="UNCL1001">380</cbc:InvoiceTypeCode>
+<cbc:Note/>
+<cbc:DocumentCurrencyCode listID="ISO4217">EUR</cbc:DocumentCurrencyCode>
+<cac:InvoicePeriod>
+<cbc:StartDate>2023-10-31</cbc:StartDate>
+<cbc:EndDate>2023-12-05</cbc:EndDate>
+</cac:InvoicePeriod>
+<cac:OrderReference>
+<cbc:ID/>
+</cac:OrderReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_PS_NL00819733.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_PSN_NL00819733.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_SP_NL00819733.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_VATR_NLPI00324889NL.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AccountingSupplierParty>
+<cbc:AdditionalAccountID>707108</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">NL816196588B01</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>IDS Europe B.V.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cac:AddressLine>
+<cbc:Line>Stationsplein 45, 3013 AK Rotterdam, The Netherlands</cbc:Line>
+</cac:AddressLine>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID schemeID="ZZZ">NL816196588B01</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">NL816196588B01</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cbc:SupplierAssignedAccountID>0060013475</cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">RO21317541</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>AVIS TRANS SRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>STR. SALCIILOR 8 BL UNITATEA 1</cbc:StreetName>
+<cbc:CityName>IASI</cbc:CityName>
+<cbc:PostalZone>RO-700697</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode listID="ISO3166-1:Alpha2">RO</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">RO21317541</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">37.53</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>0.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">37.53</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">37.53</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">37.53</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="EUR">37.53</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">37.53</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID/>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cac:DeliveryLocation>
+<cbc:Description/>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>NOVI Service Fee Commission/ Commissie Novi diensten</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>0.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>--</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">37.53</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol4a:ver2.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver2.0</cbc:ProfileID>
+<cbc:ID>FRPI00183087/NL</cbc:ID>
+<cbc:IssueDate>2023-10-31</cbc:IssueDate>
+<cbc:InvoiceTypeCode listID="UNCL1001">380</cbc:InvoiceTypeCode>
+<cbc:Note>Due date: /Date d'echeance: 05/12/2023</cbc:Note>
+<cbc:DocumentCurrencyCode listID="ISO4217">EUR</cbc:DocumentCurrencyCode>
+<cac:InvoicePeriod>
+<cbc:StartDate>2023-10-31</cbc:StartDate>
+<cbc:EndDate>2023-12-05</cbc:EndDate>
+</cac:InvoicePeriod>
+<cac:OrderReference>
+<cbc:ID/>
+</cac:OrderReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_OBO_FRPI00183087NL.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AccountingSupplierParty>
+<cbc:AdditionalAccountID>707683</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">FR14797880226</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>IDS Europe B.V.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cac:AddressLine>
+<cbc:Line>Stationsplein 45, 3013 AK Rotterdam, The Netherlands</cbc:Line>
+</cac:AddressLine>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID schemeID="ZZZ">FR14797880226</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">FR14797880226</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cbc:SupplierAssignedAccountID>0060013475</cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">RO21317541</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>AVIS TRANS SRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>STR. SALCIILOR 8 BL UNITATEA 1</cbc:StreetName>
+<cbc:CityName>IASI</cbc:CityName>
+<cbc:PostalZone>RO-700697</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode listID="ISO3166-1:Alpha2">RO</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">RO21317541</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">31.41</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">157.07</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">31.41</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>20.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">157.07</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">157.07</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">188.48</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="EUR">157.07</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">100.33</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">157.07</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105610</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-20</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>Perpignan</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>Gasoil N</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>20.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10561-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">1.5655</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.1450</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.7105</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol4a:ver2.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver2.0</cbc:ProfileID>
+<cbc:ID>INL23006594/SP</cbc:ID>
+<cbc:IssueDate>2023-10-31</cbc:IssueDate>
+<cbc:InvoiceTypeCode listID="UNCL1001">380</cbc:InvoiceTypeCode>
+<cbc:Note>Due date: /Fecha vto. 05/12/2023</cbc:Note>
+<cbc:DocumentCurrencyCode listID="ISO4217">EUR</cbc:DocumentCurrencyCode>
+<cac:InvoicePeriod>
+<cbc:StartDate>2023-10-31</cbc:StartDate>
+<cbc:EndDate>2023-12-05</cbc:EndDate>
+</cac:InvoicePeriod>
+<cac:OrderReference>
+<cbc:ID/>
+</cac:OrderReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_OBO_INL23006594SP.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AccountingSupplierParty>
+<cbc:AdditionalAccountID>740534</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">ES-B63115000</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>Fuel Iberia S.L.U.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cac:AddressLine>
+<cbc:Line>C/ Francisco Silvela 42 5a Planta. 28028 - Madrid</cbc:Line>
+</cac:AddressLine>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID schemeID="ZZZ">ES-B63115000</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">ES-B63115000</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cbc:SupplierAssignedAccountID>0060013475</cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">RO21317541</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>AVIS TRANS SRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>STR. SALCIILOR 8 BL UNITATEA 1</cbc:StreetName>
+<cbc:CityName>IASI</cbc:CityName>
+<cbc:PostalZone>RO-700697</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode listID="ISO3166-1:Alpha2">RO</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">RO21317541</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">541.33</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">2577.76</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">541.33</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">2577.76</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">2577.76</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">3119.09</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="EUR">2577.76</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">45.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">29.03</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105460</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-23</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>IDS VALCARCE-LA JUNQ</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>AdBlue</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10546-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0.6450</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.2823</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">0.9273</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">23.27</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">15.01</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105460</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-27</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>IDS VALCARCE-LA JUNQ</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>AdBlue</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10546-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0.6450</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.2823</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">0.9273</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">736.91</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">909.35</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105460</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-23</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>IDS VALCARCE-LA JUNQ</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>GASOIL</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10546-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">1.2340</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.1867</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.4207</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>4</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">347.73</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">416.06</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105460</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-27</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>IDS VALCARCE-LA JUNQ</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>GASOIL</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10546-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">1.1965</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.2242</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.4207</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>5</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">71.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">45.80</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105610</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-23</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>IDS VALCARCE-LA JUNQ</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>AdBlue</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10561-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0.6450</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.2823</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">0.9273</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>6</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">942.07</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">1162.51</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105610</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-23</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>IDS VALCARCE-LA JUNQ</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>GASOIL</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10561-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">1.2340</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.1867</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.4207</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol4a:ver2.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver2.0</cbc:ProfileID>
+<cbc:ID>BEPI00290529/NL</cbc:ID>
+<cbc:IssueDate>2023-10-31</cbc:IssueDate>
+<cbc:InvoiceTypeCode listID="UNCL1001">380</cbc:InvoiceTypeCode>
+<cbc:Note>Due date: /Date d'echeance: 05/12/2023</cbc:Note>
+<cbc:DocumentCurrencyCode listID="ISO4217">EUR</cbc:DocumentCurrencyCode>
+<cac:InvoicePeriod>
+<cbc:StartDate>2023-10-31</cbc:StartDate>
+<cbc:EndDate>2023-12-05</cbc:EndDate>
+</cac:InvoicePeriod>
+<cac:OrderReference>
+<cbc:ID/>
+</cac:OrderReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>IV_OBO_BEPI00290529NL.pdf</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AccountingSupplierParty>
+<cbc:AdditionalAccountID>707105</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">BE0535798702</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>IDS Europe B.V.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cac:AddressLine>
+<cbc:Line>Stationsplein 45, 3013 AK Rotterdam, The Netherlands</cbc:Line>
+</cac:AddressLine>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID schemeID="ZZZ">BE0535798702</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">BE0535798702</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cbc:SupplierAssignedAccountID>0060013475</cbc:SupplierAssignedAccountID>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="ZZZ">RO21317541</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>AVIS TRANS SRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>STR. SALCIILOR 8 BL UNITATEA 1</cbc:StreetName>
+<cbc:CityName>IASI</cbc:CityName>
+<cbc:PostalZone>RO-700697</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode listID="ISO3166-1:Alpha2">RO</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:CompanyID schemeID="ZZZ">RO21317541</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">342.82</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">1632.44</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">342.82</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">1632.44</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">1632.44</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">1975.26</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="EUR">1632.44</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">301.38</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">438.71</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475104960</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-17</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>Zeebrugge</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>DIESEL</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10496-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">1.4557</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.1526</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.6083</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">35.46</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">27.41</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105040</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-24</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>Zeebrugge</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>AdBlue</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10504-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0.7729</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.3921</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.1650</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:InvoicedQuantity unitCodeListID="UNECERec20" unitCode="LTR">809.46</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">1166.32</cbc:LineExtensionAmount>
+<cac:OrderLineReference>
+<cbc:LineID>1</cbc:LineID>
+<cac:OrderReference>
+<cbc:ID>0060013475105040</cbc:ID>
+</cac:OrderReference>
+</cac:OrderLineReference>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2023-10-24</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cbc:Description>Zeebrugge</cbc:Description>
+</cac:DeliveryLocation>
+</cac:Delivery>
+<cac:Item>
+<cbc:Description>DIESEL</cbc:Description>
+<cbc:Name>GDS</cbc:Name>
+<cac:ClassifiedTaxCategory>
+<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+<cbc:Percent>21.00</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+<cac:AdditionalItemProperty>
+<cbc:Name>License Plate</cbc:Name>
+<cbc:Value/>
+</cac:AdditionalItemProperty>
+<cac:AdditionalItemProperty>
+<cbc:Name>Card Serial Number</cbc:Name>
+<cbc:Value>0060013475-10504-0</cbc:Value>
+</cac:AdditionalItemProperty>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">1.4409</cbc:PriceAmount>
+<cbc:BaseQuantity unitCodeListID="UNECERec20" unitCode="LTR">1</cbc:BaseQuantity>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:Amount currencyID="EUR">0.1814</cbc:Amount>
+<cbc:BaseAmount currencyID="EUR">1.6223</cbc:BaseAmount>
+</cac:AllowanceCharge>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>in
+</Document>
